@@ -354,7 +354,7 @@ class Query:
             'columns': ['name', 'close', 'volume', 'market_cap_basic'],
             # 'filter': ...,
             'sort': {'sortBy': 'Value.Traded', 'sortOrder': 'desc'},
-            'range': [0, 50],
+            'range': [0, 500],
         }
         self.url = 'https://scanner.tradingview.com/america/scan'
 
